@@ -228,7 +228,7 @@ aside ul {
     columns: 2;
 }
 
-footer {
+footer #contato {
     background-color: var(--cor1);
     color: var(--cor6);
     text-align: center;
@@ -236,17 +236,42 @@ footer {
     font-size: .9em;
 }
 
-footer a {
+footer #contato h3 {
+    color: var(--cor6);
+    padding: 15px;
+    font-size: 1.6em;
+}
+
+footer #contato a {
     text-decoration: none;
     color: var(--cor6);
     font-weight: bolder;
     transition: .2s;
+    padding-left: 3px;
 }
 
-footer a:hover {
+footer #contato a:hover {
     text-decoration: underline;
     color: var(--cor5);
 }
+
+footer #contato a i {
+    padding: 8px 10px;
+    transition: .3s;
+}
+
+footer #contato a i:hover {
+    text-decoration: none;
+    background-color: var(--cor6);
+    border-radius: 50%;
+}
+
+footer #contato p {
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+}
+
 
 @media screen and (max-width: 1200px) {
     .menu-desktop {
